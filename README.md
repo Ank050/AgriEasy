@@ -39,7 +39,9 @@ Thus our app can help farmers make informed decisions, save time and money and i
 
 #### Dataset: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset 
 
-#### Data Collection: A large dataset of images was collected, containing images of various plant diseases from 5 different crops (Apple, Corn, Grape, Potato, and Tomato). The dataset included images of healthy plants as well as plants affected by different diseases, resulting in a total of 16 disease classes. 
+#### Data Collection 
+
+A large dataset of images was collected, containing images of various plant diseases from 5 different crops (Apple, Corn, Grape, Potato, and Tomato). The dataset included images of healthy plants as well as plants affected by different diseases, resulting in a total of 16 disease classes. 
 
 #### Machine Learning Model Notebook : **[Python Notebook](https://github.com/dhanush159/GFG_Hackathon/blob/master/MODEL/Model.ipynb)**
 
@@ -51,16 +53,13 @@ The code uses ImageDataGenerator from TensorFlow's Keras to apply data augmentat
 
 The CNN model is built using the Sequential API from Keras, with Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers. Conv2D filters extract features, MaxPooling2D downsamples, Flatten converts to 1D, Dense produces output, and Dropout mitigates overfitting. The final Dense layer with softmax activation produces a probability distribution for classification.
 
-#### Model Compilation: 
-
-The CNN model is compiled with 'adam' optimizer, 'SparseCategoricalCrossentropy' loss, and 'accuracy' metric for evaluation. 
+* Framework : TensorFlow Keras
+* Architecture : Convolutional Neural Networks
+* Validation Accuracy : 95%
 
 <hr>
 
-#### GCP:
-
-Google Cloud Platform (GCP) is a cloud computing service provided by Google that offers a wide range of cloud-based tools and services for building, deploying, and managing applications and services. In this report, we will discuss the use of GCP for storing and deploying a machine learning model using a storage bucket and cloud functions, as well as hosting a web application on a virtual machine instance. 
-<hr>
+### Integration of Google Cloud
 
 #### Storing the Model in a Storage Bucket: 
 
@@ -77,11 +76,6 @@ To deploy our machine learning model and expose it as an API, we utilized GCP's 
 In addition to model deployment, we also utilized GCP's virtual machine (VM) instance for model training and web hosting. We chose an AMD-based N2D virtual machine instance with 8 cores and 16 GB of RAM for our project. This allowed us to configure the hardware resources based on our requirements, ensuring faster and efficient model training compared to using our local laptops. We installed the necessary dependencies and libraries on the VM instance, and trained our machine learning model using the available computing resources, making the training process more efficient and faster. 
 
 Furthermore, we also hosted our web application on the same virtual machine instance. We used Apache2, a widely used web server software, to host our web application. We configured the virtual machine to run the Apache2 server, and deployed our web application, which included a mobile application and a website, on the VM instance. This allowed us to easily manage and host our web application within the GCP environment, providing reliable and scalable hosting for our application.  
-<hr>
-
-#### Conclusion: 
-
-In conclusion, GCP provided us with a robust and scalable environment for storing, deploying, and hosting our machine learning model and web application. We utilized the storage bucket for storing our model, cloud functions for model deployment through an API, and virtual machine instances for model training and web hosting. GCP's flexible and scalable services allowed us to efficiently manage and deploy our machine learning model and web application, making it a suitable choice for our project requirements. 
 <hr>
 
 ### Screen shots
