@@ -26,7 +26,7 @@ Thus our app can help farmers make informed decisions, save time and money and i
 
 
 ### Screen shots
-![1](https://user-images.githubusercontent.com/121711028/230653525-e2ac7dd5-d01c-4e91-9b67-513991c3d4ce.jpg)
+![1](https://user-images.githubusercontent.com/121711028/230653525-e2ac7dd5-d01c-4e91-9b67-513991c3d4ce.jpg = 250x250)
 
 
 
