@@ -26,7 +26,7 @@ Thus our app can help farmers make informed decisions, save time and money and i
 
 
 ### Screen shots
-<img src = "https://user-images.githubusercontent.com/121711028/230653525-e2ac7dd5-d01c-4e91-9b67-513991c3d4ce.jpg" width = "100" height = "100">
+<img src = "https://user-images.githubusercontent.com/121711028/230653525-e2ac7dd5-d01c-4e91-9b67-513991c3d4ce.jpg" width = "500" height = "500">
 
 
 
