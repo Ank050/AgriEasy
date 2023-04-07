@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "name": "Genji",
+    "category": "Fertilizer",
+    "imageUrl": "assets/images/n.png",
+    "type": "Nitrogen",
+    "desc": "Urea fertilizer is cost-effective, easy to store, and supplies immediate nitrogen for healthy plant growth. It can be mixed with other fertilizers or applied on its own, making it suitable for all types of plants, soil, and crops. Urea is also an effective acidifier for plants that prefer acidic soil."
+  },
+  {
+    "id": 1,
+    "name": "Hanzo",
+    "category": "Fertilizer",
+    "type": "Phosphorus",
+    "imageUrl": "assets/images/p.png",
+    "desc": "Phosphorus is an essential element for plant growth as it plays a key role in metabolism, photosynthesis, nitrogen fixation, carbon metabolism, and energy transfer. It is also vital for seed formation, root growth, and flowering. Rock phosphate, a natural source of phosphorus, provides all these benefits to plants."
+  },
+  {
+    "id": 2,
+    "name": "Sigma",
+    "category": "Fertilizer",
+    "imageUrl": "assets/images/c.png",
+    "type": "Calcium",
+    "desc": "Calcium fertilizer is a slow-release fertilizer that contains essential nutrients such as phosphorus, nitrogen, and proteins. It prevents nutrient deficiency, which can lead to premature bud drop and abnormal leaf colors. It also promotes the healthy development of fruits and flowers."
+  },
+  {
+    "id": 3,
+    "name": "Junk Rat",
+    "category": "Pesticide",
+    "imageUrl": "assets/images/i.png",
+    "type": "Insecticide",
+    "desc": "Jump is an innovative insecticide formulation that uses fluid bed technology for ease in handling, measuring, and dosing. It enhances plant growth and provides longer protection against pests like stem borer, leaf folder, and thrips. It is targeted towards crops such as lentils, rice, grapes, and vegetables, and can be administered with 1-2 sprays depending on the severity of pest incidence."
+  },
+  {
+    "id": 4,
+    "name": "Kiriko",
+    "category": "Pesticide",
+    "imageUrl": "assets/images/f.png",
+    "type": "Fungicide",
+    "desc": "Trichoderma viride is an organic biological agent that improves soil health and plant immunity, and increases crop yield. It controls soil fungus diseases by producing antibiotics, nutrients, and inducing plant resistance. It can be applied directly to individual plants or through seed treatment, root dipping, or potting soil mix. Its use promotes root growth, nutrient absorption, and effective use of fertilizers."
+  },
+  {
+    "id": 5,
+    "name": "RoadHog",
+    "category": "Pesticide",
+    "imageUrl": "assets/images/l.png",
+    "type": "Larvicide",
+    "desc": "Katyayani Larvicide is a biological pesticide containing Bacillus thuringiensis kurstaki, effective against various caterpillars that damage crops like cotton, tomato, paddy, and soybean. The protein produced by this bacterium blocks the insect's digestive system, leading to its death. It is not harmful to natural enemies or pollinators like honeybees."
+  }
+]
