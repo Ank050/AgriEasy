@@ -25,8 +25,9 @@ Thus our app can help farmers make informed decisions, save time and money and i
 4. Using an in-built chat bot that is powered by GPT 3.5 turbo
 
 
-
-
 ### Screen shots
-![alt text]([http://url/to/img.png](https://github.com/dhanush159/GFG_Hackathon/upload/master/screenshot/1.jpg))
+![1](https://user-images.githubusercontent.com/121711028/230653525-e2ac7dd5-d01c-4e91-9b67-513991c3d4ce.jpg)
+
+
+
 ### Future work
