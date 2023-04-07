@@ -12,11 +12,15 @@ Moreover, the app's image recognition technology can help farmers detect crop di
 
 Thus our app can help farmers make informed decisions, save time and money and improve crop yield.
 
+<hr>
+
 ### Problem statement
 1. Identify diseases in plants from images of the infected parts.
 2. Suggest the right counter-measure for the same.
 3. Provide up-to-date weather information.
 4. Assist the farmers in questions that they may have.
+
+<hr>
 
 ### Solution
 1. CNN model for image processing for detection of plant diseases.
@@ -25,26 +29,26 @@ Thus our app can help farmers make informed decisions, save time and money and i
 4. Using an in-built chat bot that is powered by GPT 3.5 turbo
 <hr>
 
-#### Data Augmentation: 
-
-The code utilizes the ImageDataGenerator class from the tensorflow.keras.preprocessing.image module to perform data augmentation on the image data during model training. The train_datagen object is created with parameters such as rotation range (-10 to 10 degrees) and horizontal flipping. The rescale parameter is used to normalize pixel values in the image to a range of 0 to 1. The train_generator is then created using the flow_from_directory() method, which reads images from the training directory, applies the specified augmentations, and generates batches of augmented images for training the model. A similar process is followed to create validation and test generators for validation and testing during the training process. 
-<hr>
-
-#### CNN Model Architecture: 
-
-The CNN model is created using the Sequential API from Keras. The model architecture consists of multiple layers, including Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers. The Conv2D layers apply filters to extract local patterns or features from the input images. The MaxPooling2D layers downsample the feature maps to capture the most important features. The Flatten layer converts the feature maps into a 1D array for input into the fully connected layers. The Dense layers are fully connected layers that produce output values using weights and biases. The Dropout layer is used to mitigate overfitting by randomly setting a percentage of input units to 0 at each training iteration. The final Dense layer has units equal to the number of classes in the dataset and uses the softmax activation function to produce a probability distribution over the classes as the model's output. 
-<hr>
-
-#### Model Compilation: 
-
-The CNN model is compiled using the compile() method. The optimizer parameter is set to 'adam', which is a popular optimization algorithm for deep learning models. The loss parameter is set to SparseCategoricalCrossentropy, which is used to measure the difference between predicted and actual labels in integer form. The metrics parameter is set to 'accuracy', which is used as the evaluation metric during training and testing. 
-<hr>
+### Machine Learning Model
 
 #### Dataset: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset 
 
 #### Data Collection: A large dataset of images was collected, containing images of various plant diseases from 5 different crops (Apple, Corn, Grape, Potato, and Tomato). The dataset included images of healthy plants as well as plants affected by different diseases, resulting in a total of 16 disease classes. 
 
-Check the notebook for more information.
+#### Machine Learning **[Python Notebook](https://github.com/dhanush159/GFG_Hackathon/blob/master/MODEL/Model.ipynb)**
+
+#### Data Augmentation: 
+
+The code utilizes the ImageDataGenerator class from the tensorflow.keras.preprocessing.image module to perform data augmentation on the image data during model training. The train_datagen object is created with parameters such as rotation range (-10 to 10 degrees) and horizontal flipping. The rescale parameter is used to normalize pixel values in the image to a range of 0 to 1. The train_generator is then created using the flow_from_directory() method, which reads images from the training directory, applies the specified augmentations, and generates batches of augmented images for training the model. A similar process is followed to create validation and test generators for validation and testing during the training process. 
+
+#### CNN Model Architecture: 
+
+The CNN model is created using the Sequential API from Keras. The model architecture consists of multiple layers, including Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers. The Conv2D layers apply filters to extract local patterns or features from the input images. The MaxPooling2D layers downsample the feature maps to capture the most important features. The Flatten layer converts the feature maps into a 1D array for input into the fully connected layers. The Dense layers are fully connected layers that produce output values using weights and biases. The Dropout layer is used to mitigate overfitting by randomly setting a percentage of input units to 0 at each training iteration. The final Dense layer has units equal to the number of classes in the dataset and uses the softmax activation function to produce a probability distribution over the classes as the model's output. 
+
+#### Model Compilation: 
+
+The CNN model is compiled using the compile() method. The optimizer parameter is set to 'adam', which is a popular optimization algorithm for deep learning models. The loss parameter is set to SparseCategoricalCrossentropy, which is used to measure the difference between predicted and actual labels in integer form. The metrics parameter is set to 'accuracy', which is used as the evaluation metric during training and testing. 
+
 <hr>
 
 #### GCP:
