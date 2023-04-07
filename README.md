@@ -28,4 +28,5 @@ Thus our app can help farmers make informed decisions, save time and money and i
 
 
 ### Screen shots
+![alt text]([http://url/to/img.png](https://github.com/dhanush159/GFG_Hackathon/upload/master/screenshot/1.jpg))
 ### Future work
