@@ -1,8 +1,9 @@
 # GFG Hackathon
-<hr>
 
-# Agri-Easy
+
+# AgriEasy 🌿
 ### Download Product Apk **[here](https://drive.google.com/file/d/1hqcqIGT88SEnf8X7n8EVaXzQ4ZQHE4Sv/view?usp=share_link)**
+### Hosted Website **[here](http://34.131.132.38/#/)**
 <hr>
 
 ### About the App
@@ -43,7 +44,7 @@ Thus our app can help farmers make informed decisions, save time and money and i
 
 A large dataset of images was collected, containing images of various plant diseases from 5 different crops (Apple, Corn, Grape, Potato, and Tomato). The dataset included images of healthy plants as well as plants affected by different diseases, resulting in a total of 16 disease classes. 
 
-#### Machine Learning Model Notebook : **[Python Notebook](https://github.com/dhanush159/GFG_Hackathon/blob/master/MODEL/Model.ipynb)**
+#### Notebook : **[Python Notebook](https://github.com/dhanush159/GFG_Hackathon/blob/master/MODEL/Model.ipynb)**
 
 #### Data Augmentation: 
 
@@ -76,7 +77,15 @@ In addition to model deployment, we also utilized GCP's virtual machine (VM) ins
 Furthermore, we also hosted our web application on the same virtual machine instance. We used Apache2, a widely used web server software, to host our web application. We configured the virtual machine to run the Apache2 server, and deployed our web application, which included a mobile application and a website, on the VM instance. This allowed us to easily manage and host our web application within the GCP environment, providing reliable and scalable hosting for our application.  
 <hr>
 
-### Screen shots
+### Tech Stack Used
+
+- Flutter
+- Python
+- TensorFlow Keras
+- Google Cloud
+<hr>
+
+### Screenshots
 
 <img src = "https://user-images.githubusercontent.com/121711028/230654301-3b14fbc6-2a4e-407d-9adb-9d4a66cccb71.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230654291-f67b71b2-49ab-4bf3-b276-62aea674421b.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230654299-680ed159-a097-4401-8666-84c3c425175a.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230654304-43d56489-9864-4fb6-9fe9-840242f21708.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230654309-673c9d0e-95e1-48fb-b5ea-778e0108d877.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230654307-6d156eb9-e2de-4b81-825a-64469d70877e.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230655785-1e4cd8a9-ce21-4810-b4eb-190a2f19542d.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230654282-500b5a2f-c5c8-4185-93c2-26d2486811f2.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230655769-123ec48c-1e17-4f06-994c-84c409c93d6a.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;<img src = "https://user-images.githubusercontent.com/121711028/230654311-43f88451-9ded-46c5-94a4-d3d45c02fcdb.jpg" height = "500">&nbsp;&nbsp;&nbsp;&nbsp;
 <hr>
