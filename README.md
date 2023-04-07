@@ -1,5 +1,11 @@
-## GFG_Hackathon
-### About
+# GFG_Hackathon
+<hr>
+
+## Agri-Easy
+## Download Product Apk **[here](https://drive.google.com/file/d/1hqcqIGT88SEnf8X7n8EVaXzQ4ZQHE4Sv/view?usp=share_link)**
+<hr>
+
+### About the app
 Agriculture is a critical sector that sustains the world's food supply. However, farmers face various challenges such as unpredictable weather patterns, pests and diseases, and inadequate access to or incorrect, outdated or incoherent information. As a result, significant quantities of resources are wasted and yield lost due to avoidable errors. These include use of incorrect pesticides due to the wrong diagnosis of the disease and using incompatible fertilizers amongst others. 
 
 In response to these challenges, we bring forward an innovative app - Agri Easy that provides solutions to some of these issues. 
@@ -35,7 +41,7 @@ Thus our app can help farmers make informed decisions, save time and money and i
 
 #### Data Collection: A large dataset of images was collected, containing images of various plant diseases from 5 different crops (Apple, Corn, Grape, Potato, and Tomato). The dataset included images of healthy plants as well as plants affected by different diseases, resulting in a total of 16 disease classes. 
 
-#### Machine Learning **[Python Notebook](https://github.com/dhanush159/GFG_Hackathon/blob/master/MODEL/Model.ipynb)**
+#### Machine Learning Model Notebook : **[Python Notebook](https://github.com/dhanush159/GFG_Hackathon/blob/master/MODEL/Model.ipynb)**
 
 #### Data Augmentation: 
 
