@@ -1,1 +1,21 @@
-# GFG_Hackathon
+## GFG_Hackathon
+### About
+Agriculture is a critical sector that sustains the world's food supply. However, farmers face various challenges such as unpredictable weather patterns, pests and diseases, and inadequate access to or incorrect, outdated or incoherent information. As a result, significant quantities of resources are wasted and yield lost due to avoidable errors. These include use of incorrect pesticides due to the wrong diagnosis of the disease and using incompatible fertilizers amongst others. 
+
+In response to these challenges, we bring forward an innovative app - Agri Easy that provides solutions to some of these issues. 
+
+The app offers several features, including local weather information, alerts for pesticide and fertilizer application, and crop disease detection using image recognition technology. These features can be beneficial for farmers who often lack access to up-to-date and accurate information.
+
+The app's weather feature can help farmers plan their activities better and minimize the risk of crop failure due to weather conditions. The alerts for pesticide and fertilizer application can help farmers use these resources more efficiently, which can reduce costs and minimize environmental damage.
+
+Moreover, the app's image recognition technology can help farmers detect crop diseases early, which is essential for preventing significant losses. Farmers often have difficulty identifying diseases accurately and quickly, which can lead to delays in taking necessary measures to control the spread of the disease.
+
+Thus our app can help farmers make informed decisions, save time and money and improve crop yield.
+
+### Problem statement
+1. Identify diseases in plants from images of the infected parts.
+2. Suggest the right counter-measure for the same
+3. Provide up-to-date weather information
+4. Assist the farmers in questions that they may have.
+
+### Solution
