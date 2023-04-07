@@ -45,15 +45,15 @@ Thus our app can help farmers make informed decisions, save time and money and i
 
 #### Data Augmentation: 
 
-The code utilizes the ImageDataGenerator class from the tensorflow.keras.preprocessing.image module to perform data augmentation on the image data during model training. The train_datagen object is created with parameters such as rotation range (-10 to 10 degrees) and horizontal flipping. The rescale parameter is used to normalize pixel values in the image to a range of 0 to 1. The train_generator is then created using the flow_from_directory() method, which reads images from the training directory, applies the specified augmentations, and generates batches of augmented images for training the model. A similar process is followed to create validation and test generators for validation and testing during the training process. 
+The code uses ImageDataGenerator from TensorFlow's Keras to apply data augmentation during training. Parameters like rotation range and flipping are set. The train_generator reads images, applies augmentations, and generates batches for training. Similar processes are used for validation and testing.
 
 #### CNN Model Architecture: 
 
-The CNN model is created using the Sequential API from Keras. The model architecture consists of multiple layers, including Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers. The Conv2D layers apply filters to extract local patterns or features from the input images. The MaxPooling2D layers downsample the feature maps to capture the most important features. The Flatten layer converts the feature maps into a 1D array for input into the fully connected layers. The Dense layers are fully connected layers that produce output values using weights and biases. The Dropout layer is used to mitigate overfitting by randomly setting a percentage of input units to 0 at each training iteration. The final Dense layer has units equal to the number of classes in the dataset and uses the softmax activation function to produce a probability distribution over the classes as the model's output. 
+The CNN model is built using the Sequential API from Keras, with Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers. Conv2D filters extract features, MaxPooling2D downsamples, Flatten converts to 1D, Dense produces output, and Dropout mitigates overfitting. The final Dense layer with softmax activation produces a probability distribution for classification.
 
 #### Model Compilation: 
 
-The CNN model is compiled using the compile() method. The optimizer parameter is set to 'adam', which is a popular optimization algorithm for deep learning models. The loss parameter is set to SparseCategoricalCrossentropy, which is used to measure the difference between predicted and actual labels in integer form. The metrics parameter is set to 'accuracy', which is used as the evaluation metric during training and testing. 
+The CNN model is compiled with 'adam' optimizer, 'SparseCategoricalCrossentropy' loss, and 'accuracy' metric for evaluation. 
 
 <hr>
 
