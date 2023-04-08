@@ -22,18 +22,19 @@ Thus our app can help farmers make informed decisions, save time and money and i
 <hr>
 
 ### Problem statement
-1. Identify diseases in plants from images of the infected parts.
-2. Suggest the right counter-measure for the same.
-3. Provide up-to-date weather information.
-4. Assist the farmers in questions that they may have.
+1. Farmers lack knowledge about diseases affecting their crops, leading to ineffective disease management practices.
+2. Farmers struggle to identify the right countermeasures for diseases due to limited information and resources.
+3. Farmers lack access to up-to-date weather information, which affects their decision-making in crop management.
+4. Farmers often have questions and need assistance in various agricultural aspects but lack reliable sources for guidance.
 
 <hr>
 
 ### Solution
-1. CNN model for image processing for detection of plant diseases.
-2. Select the best counter-measure from a list of available options
-3. Using a weather API 
-4. Using an in-built chat bot that is powered by GPT 3.5 turbo
+
+1. Developed a CNN model for accurate and timely detection of plant diseases, helping farmers identify diseases early and take appropriate measures.
+2. Integrated a comprehensive list of countermeasures for detected diseases, assisting farmers in choosing the most effective management practices.
+3. Utilized a weather API to provide real-time weather information to farmers, enabling them to make informed decisions in crop management.
+4. Implemented an in-built agrichat bot powered by GPT 3.5 turbo, providing farmers with interactive assistance and answering their questions in real-time.
 <hr>
 
 ### Machine Learning Model
