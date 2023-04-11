@@ -41,7 +41,7 @@ Download Agri Easy today and experience the benefits of this innovative app for 
 
 #### Dataset: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset 
 
-#### Data Collection 
+#### Data Collection:
 
 A large dataset of images was collected, containing images of various plant diseases from 5 different crops (Apple, Corn, Grape, Potato, and Tomato). The dataset included images of healthy plants as well as plants affected by different diseases, resulting in a total of 16 disease classes. 
 
