@@ -2,7 +2,7 @@
 
 
 # AgriEasy 🌿
-### Download Product Apk **[here](https://drive.google.com/file/d/1hqcqIGT88SEnf8X7n8EVaXzQ4ZQHE4Sv/view?usp=share_link)**
+### Download Product Apk **[here](https://www.dropbox.com/s/3no5dmoaqmt426d/app-release.apk?dl=0)**
 ### Hosted Website **[here](http://34.131.132.38/#/)**
 <hr>
 
